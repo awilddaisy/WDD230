@@ -1,0 +1,54 @@
+@import url(https://coolors.co/a4b0f5-a5f8d3-001011-71816d-1c3041);
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+
+:root {
+    --color-maxbluepurple: #a4b0f5;
+    --color-magicmint: #a5f8d3;
+    --color-richblackfogra: #001011;
+    --color-xandu: #71816d;
+    --color-prussianblue: #1c3041;
+    }
+body{
+    font-family: Libre Franklin;
+    background-color:var(--color-maxbluepurple);
+}
+header {
+    display:flex;
+    align-items:center;
+    background-color: var(--color-xandu);
+    color: var(--color-richblackfogra);
+    border-radius: 25px;
+    border-style: dotted;
+    border-width: 10px;
+}
+header img {
+    margin: 1rem;
+    height: auto;
+    width: 150px;
+    border-radius:25px;
+    border-style: solid;
+}
+header h1{
+    text-align: center;
+}
+header div:nth-child(2){
+    width:100%;
+}
+#content{
+    margin: 0 auto;
+    width: 550px;
+    /* background-color:aqua; */
+}
+main {
+    color:#1c3041;
+    /* padding: 20px; */
+}
+footer{
+   display:flex;
+   align-items:center;
+   background-color: var(--color-xandu);
+   color: var(--color-richblackfogra);
+   border-radius: 25px;
+   border-style: dotted;
+   border-width: 4px; 
+}

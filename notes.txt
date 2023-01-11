@@ -1,0 +1,5 @@
+class vs. id
+    class is for a collection of things on a page
+    id is for one individual thing
+        -only use an id if you need to reference it in CSS or JS
+
