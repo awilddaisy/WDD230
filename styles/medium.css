@@ -1,0 +1,6 @@
+/* media queries change the content for mobile,tablet,desktop access */
+@media screen and (max-width: 640px){
+    header, footer{
+        background-color:white;
+    }
+}

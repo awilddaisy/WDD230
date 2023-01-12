@@ -36,7 +36,7 @@ header div:nth-child(2){
 }
 #content{
     margin: 0 auto;
-    width: 550px;
+    width: auto;
     /* background-color:aqua; */
 }
 main {
